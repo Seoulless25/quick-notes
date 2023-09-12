@@ -1,0 +1,21 @@
+nav {
+    height: 7.5vmin;
+    margin-bottom: 2vmin;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav > a {
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  
+  .title {
+    position: absolute;
+    left: 25px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+  }

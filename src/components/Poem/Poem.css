@@ -1,0 +1,68 @@
+.note-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 1.3rem 0;
+    background-color: var(--tan-1);
+    border: .5rem solid var(--tan-3);
+    border-radius: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: black;
+  }
+
+  .form label {
+    color: black;
+  }
+  
+  .note-container input {
+    width: 250vmin;
+  }
+  
+  .note-date {
+    font-size: 10px;
+    color: black;
+  }
+  
+  .delete-note {
+    right: 70px;
+    font-size: 14px;
+  }
+  
+  .delete-note:hover, .edit-note:hover {
+    transform: scale(1.1);
+  }
+  
+  .delete-note:active, .edit-note:active  {
+    background-color: rgb(28, 28, 28);
+  }
+  
+  .edit-note {
+    right: 160px;
+    font-size: 14px;
+  }
+  
+  .logout {
+    margin-left: 25px;
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 1.2rem;
+  }
+  
+  .logout:hover {
+    color: rgba(0, 0, 0, 0.7)
+  }
+
+  .note-content {
+    display: flex;
+    flex-direction: row;
+    white-space: pre-wrap;
+  }
+
+  .note-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
